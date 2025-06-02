@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "36091250968",
+    "project_id": "flashscore-4dd44",
+    "storage_bucket": "flashscore-4dd44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36091250968:android:798f65689f7f39c503366d",
+        "android_client_info": {
+          "package_name": "com.example.flashscore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfZUpqbQ7hV4vOeA7xET9IljBVXZkFO-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

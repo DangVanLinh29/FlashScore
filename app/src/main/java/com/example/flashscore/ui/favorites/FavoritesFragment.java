@@ -1,4 +1,6 @@
 package com.example.flashscore.ui.favorites;
 
-public class FavoritesFragment {
+import androidx.fragment.app.Fragment;
+
+public class FavoritesFragment extends Fragment {
 }

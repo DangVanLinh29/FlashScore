@@ -1,3 +1,75 @@
 <resources>
-    <string name="app_name">FlashScore</string>
+    <string name="app_name">FlashScoreApp</string> <string name="title_home">Home</string>
+    <string name="title_leagues">Leagues</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="error_loading_data">Error loading data. Please try again.</string>
+    <string name="no_data_available">No data available.</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading...</string>
+
+    <string name="default_notification_channel_id" translatable="false">flashscore_default_channel</string>
+    <string name="fcm_fallback_notification_channel_label">Misc Notifications</string>
+
+    <string name="home_team_logo">Home team logo</string>
+    <string name="away_team_logo">Away team logo</string>
+    <string name="follow_match">Follow match</string>
+
+    <string name="previous_day">Previous Day</string>
+    <string name="next_day">Next Day</string>
+    <string name="no_matches_available">No matches available for this date.</string>
+    <string name="error_loading_matches">Error loading matches. Please try again.</string>
+    <string name="todays_matches">Today\'s Matches</string>
+    <string name="error_loading_matches_param">Error loading matches: %s</string>
+
+    <string name="match_details_title">Match Details</string>
+    <string name="lineups">Lineups</string>
+    <string name="statistics">Statistics</string>
+    <string name="match_events">Events</string>
+    <string name="tab_lineups">Lineups</string>
+    <string name="tab_stats">Stats</string>
+    <string name="tab_events">Events</string>
+    <string name="error_loading_match_details">Error loading match details.</string>
+    <string name="no_lineup_data">No lineup data available.</string>
+    <string name="no_stats_data">No statistics data available.</string>
+    <string name="no_events_data">No event data available.</string>
+    <string name="home_formation">Home Formation: %s</string>
+    <string name="away_formation">Away Formation: %s</string>
+    <string name="starting_lineup">Starting Lineup</string>
+    <string name="substitutes">Substitutes</string>
+    <string name="event_type_icon">Event type icon</string>
+    <string name="team_logo">Team logo</string>
+
+
+    <string name="league_details_title">League Details</string>
+    <string name="no_standings_available">No standings available for this league.</string>
+    <string name="error_loading_standings">Error loading standings.</string>
+    <string name="league_logo_banner">League logo banner</string>
+    <string name="team">Team</string>
+    <string name="played_short">Pl</string>
+    <string name="goal_difference_short">GD</string>
+    <string name="points_short">Pts</string>
+
+    <string name="title_favorites_screen">Favorite Teams</string>
+    <string name="no_favorite_teams_yet">No favorite teams yet. Add some!</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+
+    <string name="team_details_title">Team Details</string>
+    <string name="matches_schedule_results">Matches (Schedule/Results)</string>
+    <string name="no_matches_data_for_team">No match data available for this team.</string>
+    <string name="follow_team">Follow Team</string>
+    <string name="unfollow_team">Unfollow Team</string>
+    <string name="error_loading_team_details">Error loading team details.</string>
+    <string name="error_loading_team_matches">Error loading team matches.</string>
+    <string name="country">Country</string>
+    <string name="venue">Venue</string>
+    <string name="founded">Founded</string>
+
+    <string name="title_leagues_screen">Leagues</string>
+    <string name="no_leagues_available">No leagues available at the moment.</string>
+    <string name="error_loading_leagues">Error loading leagues. Pull to refresh.</string>
+    <string name="league_logo">League logo</string>
+    <string name="view_details">View details</string>
+
 </resources>

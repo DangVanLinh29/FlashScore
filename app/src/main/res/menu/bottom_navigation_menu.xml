@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black" android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_leagues"
+        android:icon="@drawable/ic_trophy_black" android:title="@string/title_leagues" />
+    <item
+        android:id="@+id/navigation_favorites"
+        android:icon="@drawable/ic_favorite_black" android:title="@string/title_favorites" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_black" android:title="@string/title_settings" />
 </menu>
