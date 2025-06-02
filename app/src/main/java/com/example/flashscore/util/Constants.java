@@ -1,6 +1,6 @@
 package com.example.flashscore.util;
 
 public class Constants {
-    public static final String BASE_URL = "https://v3.football.api-sports.io/";
-    public static final String API_KEY = "5ed9571131c54363cb3e39780ff22892";
+    public static final String BASE_URL = "https://api.football-data.org/v4/";
+    public static final String API_KEY = "0c9d0e934dec4a6b9668a9be23a75379";
 }

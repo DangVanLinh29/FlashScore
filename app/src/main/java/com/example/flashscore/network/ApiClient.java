@@ -20,14 +20,14 @@ public class ApiClient {
             HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor();
             loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
 
-            // Interceptor để thêm API Key vào header
             Interceptor headerInterceptor = new Interceptor() {
-                @NonNull // Nên thêm annotation này
+                @NonNull
                 @Override
                 public Response intercept(@NonNull Chain chain) throws IOException {
                     Request originalRequest = chain.request();
                     Request.Builder builder = originalRequest.newBuilder()
-                            .header("x-apisports-key", Constants.API_KEY); // Gửi key qua header
+                            // SỬA TÊN HEADER CHO PHÙ HỢP VỚI FOOTBALL-DATA.ORG
+                            .header("X-Auth-Token", Constants.API_KEY);
 
                     Request newRequest = builder.build();
                     return chain.proceed(newRequest);
@@ -35,7 +35,7 @@ public class ApiClient {
             };
 
             OkHttpClient okHttpClient = new OkHttpClient.Builder()
-                    .addInterceptor(headerInterceptor) // Thêm interceptor cho header API key
+                    .addInterceptor(headerInterceptor)
                     .addInterceptor(loggingInterceptor)
                     .connectTimeout(30, TimeUnit.SECONDS)
                     .readTimeout(30, TimeUnit.SECONDS)
